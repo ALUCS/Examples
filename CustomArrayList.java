@@ -31,7 +31,7 @@ public class CustomArrayList {
     // Custom exception class we have created for our custom ArrayList
     // This should trigger whenever someone tries to add an element
     // That already exists in the custom ArrayList.
-    class CopyCatException extends Exception{
+    static class CopyCatException extends Exception{
         CopyCatException(String msg){
             super(msg);
         }
